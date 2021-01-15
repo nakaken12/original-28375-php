@@ -1,0 +1,197 @@
+/* 広告部分 */
+.add-header-contents {
+  width: 100vw;
+  height: 85vh;
+  background-image: url(../images/films-header-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 70%;
+  text-shadow: 0 0 6px rgba(0, 0, 1, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-service-title {
+  font-size: 7vh;
+  color: #fff;
+}
+
+.header-service-explain {
+  color: #fff;
+}
+
+
+.store-btn {
+  margin-top: 24px;
+
+}
+
+.apple-btn {
+  margin-right: 1vw;
+  height: 9vh;
+}
+
+.google-btn {
+  height: 9vh;
+}
+/* 広告部分 */
+
+// Filmsとは
+// .feature-parents {
+  // これ消すとなぜか上手く行かない
+// }
+
+.feature-title {
+  padding-top: 5vh;
+  padding-bottom: 2.5vh;
+  font-size: 3.5vh;
+  text-align: center;
+  text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.9);
+  background-color: #eeeeee;
+}
+
+.parents-horizon {
+  background-color: #eeeeee;
+}
+
+.horizon {
+  width: 25vw;
+  border: solid 1px #cc3300;
+  border-bottom: 1.5vh;
+  margin: 0 auto 0 auto;
+}
+
+.top-feature-title {
+  padding-top: 2.5vh;
+  line-height: 8vh;
+  text-align: center;
+  text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.9);
+  background-color: #eeeeee;
+}
+
+.second-feature-title {
+  line-height: 8vh;
+  text-align: center;
+  text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.9);
+  background-color: #eeeeee;
+}
+
+.bottom-feature-title {
+  line-height: 8vh;
+  text-align: center;
+  text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.9);
+  padding-bottom: 5vh;
+  background-color: #eeeeee;
+}
+// Filmsとは
+
+// 投稿一覧
+.post-contents {
+  padding: 5vh 0 0 0;
+}
+
+.title {
+  margin-top: 6vh;
+  margin-bottom: 4vh;
+  font-size: 4vh;
+  text-align: center;
+  text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.9);
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 3vh;
+  margin-bottom: 2vh;
+}
+
+.post-lists {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-lists>.list {
+  width: 50%;
+  padding: 2vw;
+  margin-bottom: 7vh;
+  background-color: #FFF;
+  border: 2px solid #008080;
+  border-radius: 15px;
+}
+
+.post-info {
+  background-color: #FFF;
+  color: black;
+  padding: 0 1vw;
+}
+
+.user-page {
+  font-size: 2.5vh;
+  padding-bottom: 1vh;
+}
+
+.post-title {
+  font-size: 3vh;
+  font-weight: bold;
+  padding-bottom: 1.5vh;
+}
+
+.post-genre {
+  font-size: 2.5vh;
+  padding-bottom: 1.5vh;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 1vh;
+}
+
+.netabare {
+  color: #cc3300;
+  font-weight: bold;;
+}
+
+details {
+  margin: 1vh;
+}
+
+summary {
+  display: block;
+  outline: none;
+}
+
+.post-content {
+  font-size: 2.5vh;
+  padding: 1vh 0;
+}
+
+.post-dummy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dummy-title {
+  font-size: 3vh;
+  padding-bottom: 2vh;
+}
+// 投稿一覧
+
+.paging {
+  // height: 15vh;
+  // text-align: center;
+}
+
+.paging-left {
+  font-size: 2.5vh;
+  // border: 1px solid grey;
+  // border-radius: 5px;
+  // padding: 1.5vh;
+}
+
+.paging-right {
+  font-size: 2.5vh;
+  // border: 1px solid grey;
+  // border-radius: 5px;
+  // padding: 1.5vh;
+}

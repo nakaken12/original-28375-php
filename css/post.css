@@ -1,0 +1,128 @@
+.posts-sell-contents {
+  font-family: "Source Sans Pro", Helvetica, Arial, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "YuGothic", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", sans-serif;
+  font-size: 14px;
+  width: 60%;
+  background-color: #fff;
+  margin: 15vh auto;
+  border: 1px solid #dddddd;
+  box-shadow:5px 5px 15px;
+}
+
+.posts-sell-main {
+  background-color: #FFF;
+  padding: 30px 10vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.posts-sell-title {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.new_posts {
+  width: 100%;
+}
+
+/* 共通 */
+.indispensable {
+  background: #ea352d;
+  margin-left: 8px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.weight-bold-text {
+  font-weight: bold;
+  min-width: 170px;
+  margin-bottom: 10px;
+}
+
+/* /共通 */
+
+/* タイトル名 */
+
+.title-text {
+  width: 100%;
+  margin-top: 5px;
+  height: 48px;
+  padding: 10px 16px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 16px;
+  resize: none;
+}
+
+/* /タイトル名 */
+
+/* ジャンル */
+
+.posts-genre {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh 0;
+}
+
+.posts-genre>.form {
+  width: 300px;
+  padding: 2vh 0;
+}
+
+.select-box {
+  margin: 2vh 0;
+  height: 30px;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-left: 20px;
+}
+
+/* /ジャンル */
+
+/* スコア */
+.jquery-raty {
+  padding-bottom: 4vh;
+}
+
+.rate-titile {
+  font-weight: bold;
+  margin-right: 5px;
+}
+/* /スコア */
+
+
+/* ネタバレ */
+.posts-spoiler {
+  padding-bottom: 2vh;
+}
+/* /ネタバレ */
+
+/* レビュー */
+.posts-review {
+  margin-top: 2vh;
+}
+
+.posts-text {
+  width: 100%;
+  padding: 16px 16px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+}
+
+/* /レビュー */
+
+/* 下部ボタン */
+
+.sell-btn-contents {
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+/* /下部ボタン */

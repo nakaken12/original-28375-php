@@ -1,0 +1,56 @@
+/* フッター広告部分 */
+// .add-footer-contents {
+//   これ消すとなぜか上手く行かない
+// }
+
+.footer-title-contents {
+  background-image: url(../images/films-footer-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0 0 7vh 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-service-title {
+  font-size: 4vh;
+  margin: 5vh 0 2vh 0;
+  text-shadow: 0 0 6px rgba(0, 0, 1, 0.9);
+}
+
+.footer-contents-explain {
+  font-size: 2.5vh;
+  line-height: 50px;
+  text-shadow: 0 0 6px rgba(0, 0, 1, 0.9);
+}
+/* フッター広告部分 */
+
+.footer {
+  width: 100vw;
+  list-style: none;
+  background-color: #272727;
+  padding: 2vh 0;
+}
+
+.footer-link-parents {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 12px;
+  line-height: 30px;
+  text-decoration: none;
+  margin: 0 4vw;
+}
+
+.footer>p {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-top: 25px;
+}
